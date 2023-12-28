@@ -39,7 +39,7 @@ playSound3D ["a3\sounds_f\characters\stances\binoculars_to_unarmed.wss", player]
 	};
 } forEach (_AllLightMeds + _AllMidMeds + _AllStrongMeds);
 if (count _PAllAvailabeMeds < 1) exitWith {
-	["ErrorTitleAndText", [format ["<img size='40' image='%1'/><t > Failed<br/>No accessible meds in your Uniform or Vest!</t>","exile_assets\texture\ui\xm8_app_health_scanner_ca.paa"]]] call ExileClient_gui_toaster_addTemplateToast;
+	["ErrorTitleAndText", [format ["<img size='40' image='%1'/><t > Treatment Failed<br/>No medicine found in your Uniform or Vest!</t>","exile_assets\texture\ui\xm8_app_health_scanner_ca.paa"]]] call ExileClient_gui_toaster_addTemplateToast;
 	playSound3D ["a3\ui_f\data\sound\cfgnotifications\scoreremoved.wss", player];
 };
 private _ExileClient_Treatment_Item = "";
