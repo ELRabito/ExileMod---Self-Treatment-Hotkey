@@ -16,7 +16,7 @@ Example Screenshot of the code part for ExileClient_gui_hud_event_onKeyUp.
 ![grafik](https://github.com/ELRabito/ExileMod---Self-Treatment-Hotkey/assets/39779934/8e2fedcd-9849-4aae-b47d-74b2db71fec6)
 
 2. Download [ExileClient_system_util_QuickSelfTreat](https://github.com/ELRabito/ExileMod---Self-Treatment-Hotkey/blob/main/ExileClient_system_util_QuickSelfTreat.sqf) and place it in your missionfile and define the new function
-- Easily done via initplayerlocal.sqf for example like below) (Adjust pathes to your likings)
+- Easily done via initplayerlocal.sqf for example like below (Adjust pathes to your likings).
 
 		private ['_code', '_function', '_file'];
 		{
