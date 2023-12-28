@@ -1,5 +1,7 @@
-On button press (pre-defined or/and custom user action) the character will use a appropriate medicine depending on the severity of the damage.
-- If no appropriate medicine was found the script will use any available med the player has inside Uniform or Vest.
+On button press the character will use a appropriate medicine depending on the severity of the damage.
+Makes it a bit easier, fluid and less immersion breaking to consume healing items in Exile.
+- To balance it a bit the system only detects medicine items in Uniform or Vest.
+- If no appropriate medicine was found the script will use any available med the player has.
 - Checks for basic exploits/bugs already in place (Animation skipping, using it while swimming etc).
 - Sound effect to mimic the sound of searching for a appropriate medicine, error toast with information and sound clue if no medicine was found in the vest or uniform.
 - Code examples for putting it on a normal number row key like 8 or custom user action are included (Optional or use them both). 
