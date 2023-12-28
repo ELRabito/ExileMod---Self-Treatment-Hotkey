@@ -1,4 +1,4 @@
-On button press the character will use a appropriate medicine depending on the severity of the damage.
+On button press (pre-defined or/and custom user action) the character will use a appropriate medicine depending on the severity of the damage.
 - If no appropriate medicine was found the script will use any available med the player has inside Uniform or Vest.
 - Checks for basic exploits/bugs already in place (Animation skipping, using it while swimming etc).
 - Sound effect to mimic the sound of searching for a appropriate medicine, error toast with information and sound clue if no medicine was found in the vest or uniform.
