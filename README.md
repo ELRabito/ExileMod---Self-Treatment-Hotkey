@@ -1,9 +1,8 @@
 On button press the character will use a appropriate medicine depending on the severity of the damage.
-If no appropriate medicine was found the script will use any available med the player has inside Uniform or Vest.
-Checks for basic exploits/bugs already in place (Animation skipping, using it while swimming etc).
-Sound effect to mimic the sound of searching for a appropriate medicine, error toast with information and sound clue if no medicine was found in the vest or uniform.
-
-Code examples for putting it on a normal number row key like 8 or custom user action are included (Optional or use them both). 
+- If no appropriate medicine was found the script will use any available med the player has inside Uniform or Vest.
+- Checks for basic exploits/bugs already in place (Animation skipping, using it while swimming etc).
+- Sound effect to mimic the sound of searching for a appropriate medicine, error toast with information and sound clue if no medicine was found in the vest or uniform.
+- Code examples for putting it on a normal number row key like 8 or custom user action are included (Optional or use them both). 
 
 # Installation
 1. Add/adjust a CfgExileCustomCode override for ExileClient_gui_hud_event_onKeyUp to include the part needed for the hotkey or custom user action button press.
