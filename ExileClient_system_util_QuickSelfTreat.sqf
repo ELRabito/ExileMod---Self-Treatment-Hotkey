@@ -1,6 +1,6 @@
 /**
 * ExileClient_system_util_QuickSelfTreat 
-* V0.20
+* V0.21
 * by El*Rabito
 */
 private _playerObject = player;
@@ -17,7 +17,7 @@ private _PLightMeds = [];
 private _PMidMeds = [];
 private _PStrongMeds = [];
 private _PAllAvailabeMeds = [];
-playSound3D ["a3\sounds_f\characters\stances\binoculars_to_unarmed.wss", vehicle player, false, getPosASL player, 1, 1, 10,0,false];
+playSound3D ["a3\sounds_f\characters\stances\binoculars_to_unarmed.wss", vehicle player, false, getPosASL player, 5, 1, 10,0,false];
 {
 	if (_x in _AllPlayerMeds) then
 	{
@@ -40,7 +40,7 @@ playSound3D ["a3\sounds_f\characters\stances\binoculars_to_unarmed.wss", vehicle
 } forEach (_AllLightMeds + _AllMidMeds + _AllStrongMeds);
 if (count _PAllAvailabeMeds < 1) exitWith {
 	["ErrorTitleAndText", [format ["<img size='40' image='%1'/><t > Treatment Failed<br/>No medicine found in your Uniform or Vest!</t>","exile_assets\texture\ui\xm8_app_health_scanner_ca.paa"]]] call ExileClient_gui_toaster_addTemplateToast;
-	playSound3D ["a3\ui_f\data\sound\cfgnotifications\scoreremoved.wss", vehicle player, false, getPosASL player, 1, 1, 10,0,true];
+	playSound3D ["a3\ui_f\data\sound\cfgnotifications\scoreremoved.wss", vehicle player, false, getPosASL player, 10, 1, 10,0,true];
 };
 private _ExileClient_Treatment_Item = "";
 private _CanTreat = false;
